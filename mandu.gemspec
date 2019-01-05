@@ -6,12 +6,12 @@ require "mandu/version"
 Gem::Specification.new do |spec|
   spec.name          = "mandu"
   spec.version       = Mandu::VERSION
-  spec.authors       = ["TODO: Write your name"]
-  spec.email         = ["TODO: Write your email address"]
+  spec.authors       = ["HAHWUL"]
+  spec.email         = ["hahwul@gmail.com"]
 
-  spec.summary       = %q{TODO: Write a short summary, because RubyGems requires one.}
-  spec.description   = %q{TODO: Write a longer description or delete this line.}
-  spec.homepage      = "TODO: Put your gem's website or public repo URL here."
+  spec.summary       = %q{Ruby gem for Easy Web Hacking}
+  spec.description   = %q{MITM Proxy, en/decode, http reqeust handling, etc...}
+  spec.homepage      = "https://www.hahwul.com"
   spec.license       = "MIT"
 
   # Prevent pushing this gem to RubyGems.org. To allow pushes either set the 'allowed_push_host'
