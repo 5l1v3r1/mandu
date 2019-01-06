@@ -1,5 +1,5 @@
-require "json"
-require "evil-proxy"
-require "net/http"
-require "net/https"
-require "uri"
+require 'json'
+require 'evil-proxy'
+require 'net/http'
+require 'net/https'
+require 'uri'
