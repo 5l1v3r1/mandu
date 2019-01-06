@@ -16,7 +16,21 @@ gem 'mandu'
 
 ## Usage
 
-TODO: Write usage instructions here
+```ruby
+require 'mandu'
+
+# http send request
+response = Mandu.send_request('https://www.hahwul.com/?123=123','GET','',{'Cookie':'asdf=asdf'})
+puts response.body
+
+# raw data is ..
+# GET / HTTP/1.1
+# Host: www.hahwul.com
+# Cookie: asdf=asdf  
+
+response = Mandu.send_request_raw(raw)
+puts response.body
+```
 
 ## Development
 Hellow world..!

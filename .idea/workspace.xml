@@ -3,15 +3,7 @@
   <component name="ChangeListManager">
     <list default="true" id="a1c320c2-5e48-444e-ba19-c7bac80731fb" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Gemfile" beforeDir="false" afterPath="$PROJECT_DIR$/Gemfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Rakefile" beforeDir="false" afterPath="$PROJECT_DIR$/Rakefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bin/console" beforeDir="false" afterPath="$PROJECT_DIR$/bin/console" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mandu.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/mandu.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mandu/requirement.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/mandu/requirement.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/lib/mandu/version.rb" beforeDir="false" afterPath="$PROJECT_DIR$/lib/mandu/version.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mandu.gemspec" beforeDir="false" afterPath="$PROJECT_DIR$/mandu.gemspec" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/mandu_spec.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/mandu_spec.rb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/spec/spec_helper.rb" beforeDir="false" afterPath="$PROJECT_DIR$/spec/spec_helper.rb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,11 +13,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/lib/mandu.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="380">
-              <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+            <state relative-caret-position="12">
+              <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -81,12 +73,12 @@
           <provider selected="true" editor-type-id="text-editor" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="46">
-                <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
+              <first_editor relative-caret-position="368">
+                <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
               </first_editor>
               <second_editor />
             </state>
@@ -115,12 +107,12 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/LICENSE.txt" />
         <option value="$PROJECT_DIR$/lib/mandu/requirement.rb" />
         <option value="$PROJECT_DIR$/lib/mandu/const.rb" />
         <option value="$PROJECT_DIR$/mandu.gemspec" />
         <option value="$PROJECT_DIR$/lib/mandu.rb" />
+        <option value="$PROJECT_DIR$/README.md" />
       </list>
     </option>
   </component>
@@ -189,7 +181,7 @@
       <option name="presentableId" value="Default" />
       <updated>1546687734290</updated>
       <workItem from="1546687736312" duration="3341000" />
-      <workItem from="1546785392683" duration="3407000" />
+      <workItem from="1546785392683" duration="4114000" />
     </task>
     <task id="LOCAL-00001" summary="Edit README">
       <created>1546688363062</created>
@@ -219,11 +211,25 @@
       <option name="project" value="LOCAL" />
       <updated>1546788543234</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Code refactoring(리팩토링)">
+      <created>1546788850353</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1546788850353</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Update ReadME!">
+      <created>1546789216436</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1546789216436</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="6748000" />
+    <option name="totallyTimeSpent" value="7455000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="27" width="1853" height="1053" extended-state="6" />
@@ -258,7 +264,9 @@
     <MESSAGE value="Edit LICENSE" />
     <MESSAGE value="Edit gemspec" />
     <MESSAGE value="Add request function" />
-    <option name="LAST_COMMIT_MESSAGE" value="Add request function" />
+    <MESSAGE value="Code refactoring(리팩토링)" />
+    <MESSAGE value="Update ReadME!" />
+    <option name="LAST_COMMIT_MESSAGE" value="Update ReadME!" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/.travis.yml">
@@ -298,16 +306,6 @@
     <entry file="file://$PROJECT_DIR$/Rakefile">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="46">
-            <caret line="2" column="39" selection-start-line="2" selection-start-column="39" selection-end-line="2" selection-end-column="39" />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/LICENSE.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="46">
@@ -341,8 +339,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/mandu.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="380">
-          <caret line="45" column="22" selection-start-line="45" selection-start-column="22" selection-end-line="45" selection-end-column="22" />
+        <state relative-caret-position="12">
+          <caret line="11" column="19" selection-start-line="11" selection-start-column="19" selection-end-line="11" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="368">
+            <caret line="31" column="18" selection-start-line="31" selection-start-column="18" selection-end-line="31" selection-end-column="18" />
+          </first_editor>
+          <second_editor />
         </state>
       </provider>
     </entry>
