@@ -1,6 +1,9 @@
+# frozen_string_literal: true
+
 require 'mandu/version'
 require 'mandu/requirement'
 require 'mandu/const'
+require 'mandu/fuzzer/fuzz'
 
 module Mandu
   def self.mitmproxy(port)
@@ -9,7 +12,7 @@ module Mandu
     proxy
   end
 
-  def send_request(url, method, data, headers)
+  def self.send_request(url, method, data, headers)
     uri = URI(url)
     scheme = uri.scheme
     port = 80
@@ -43,7 +46,47 @@ module Mandu
     resp
   end
 
-  def send_request_raw(data)
+  def self.send_request_raw(data)
     # TODO: ...
+  end
+
+  def self.fuzz
+    Fuzz.new
+  end
+
+  def self.parse_xml(source)
+    data = ''
+    begin # url pattern
+      data = open(source)
+    rescue StandardError # data pattern
+      data = source
+    end
+
+    begin
+      return Nokogiri::XML(data)
+    rescue StandardError => e
+      return false
+    end
+  end
+
+  def self.parse_html(source)
+    data = ''
+    begin # url pattern
+      data = open(source)
+    rescue StandardError # data pattern
+      data = source
+    end
+
+    begin
+      return Nokogiri::HTML(data)
+    rescue StandardError => e
+      return false
+    end
+  end
+
+  def self.parse_http_request(rawdata)
+    req = WEBrick::HTTPRequest.new(WEBrick::Config::HTTP)
+    req.parse(StringIO.new(rawdata))
+    req
   end
 end
