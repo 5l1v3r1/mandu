@@ -4,6 +4,12 @@ class Fuzz
   def initialize
     # TODO
   end
+  # singleton
+  @@instance = Fuzz.new
+
+  def self.instance
+    @@instance
+  end
 
   def fuzz_uri(data, payloads)
     # TODO

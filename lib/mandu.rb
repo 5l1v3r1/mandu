@@ -51,7 +51,7 @@ module Mandu
   end
 
   def self.fuzz
-    Fuzz.new
+    Fuzz.instance
   end
 
   def self.parse_xml(source)
