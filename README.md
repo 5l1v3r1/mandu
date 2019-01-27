@@ -1,7 +1,4 @@
 <img src="https://raw.githubusercontent.com/hahwul/mandu/master/images/logo.png">
-
-# Mandu
-
 Mandu is ruby gem for Easy Web Hacking.
 
 ## Installation
