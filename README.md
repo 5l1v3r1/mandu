@@ -1,4 +1,4 @@
-<img src="https://raw.githubusercontent.com/hahwul/mandu/master/logo.png">
+<img src="https://raw.githubusercontent.com/hahwul/mandu/master/images/logo.png">
 
 # Mandu
 
